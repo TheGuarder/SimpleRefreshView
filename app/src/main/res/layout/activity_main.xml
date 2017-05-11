@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <chenhao.lib.onecode.simplerefreshviewlibrary.PullToRefreshView
+        android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:avlv_color="#00B2EE"
+        app:avlv_style="Pacman">
+
+        <chenhao.lib.onecode.simplerefreshviewlibrary.LoadMoreRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            app:avlv_color="#00B2EE"
+            app:avlv_style="Pacman"
+            app:lmfv_txtColor_noMore="#00B2EE"
+            app:lmfv_txt_noMore="到底了,别扯了~" />
+
+    </chenhao.lib.onecode.simplerefreshviewlibrary.PullToRefreshView>
+
+</RelativeLayout>
